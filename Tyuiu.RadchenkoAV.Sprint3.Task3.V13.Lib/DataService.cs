@@ -5,17 +5,15 @@ namespace Tyuiu.RadchenkoAV.Sprint3.Task3.V13.Lib
     {
         public int ConvertStringToInt(string value)
         {
-
-            string a = "";
+            string result = "";
             foreach (char c in value)
             {
                 if (Char.IsDigit(c))
                 {
-                    a += c;
+                    result += c;
                 }
             }
-
-            return Int32.Parse(a);
+            return Int32.Parse(result);
         }
     }
 }

@@ -9,7 +9,7 @@ namespace Tyuiu.RadchenkoAV.Sprint3.Task3.V13.Test
         {
             DataService ds = new DataService();
             string value = "?sd!! 5gh. s!";
-            double res = ds.ConvertStringToInt(value);
+            int res = ds.ConvertStringToInt(value);
             int wait = 5;
             Assert.AreEqual(wait, res);
         }
