@@ -14,8 +14,8 @@ Console.WriteLine("*ряда по формуле, при t=0,7******************
 Console.WriteLine("***************************************************************************");
 Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
 Console.WriteLine("***************************************************************************");
-double value = 0.7;
 int startValue = 1;
+double value = 0.7;
 int stopValue = 10;
 Console.WriteLine("Переменная X = " + value);
 Console.WriteLine("Старт шага = " + startValue);

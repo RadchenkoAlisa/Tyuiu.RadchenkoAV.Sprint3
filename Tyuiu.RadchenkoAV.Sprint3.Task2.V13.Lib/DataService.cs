@@ -8,9 +8,8 @@ namespace Tyuiu.RadchenkoAV.Sprint3.Task2.V13.Lib
             double SumSeries = 0;
             do
             {
-                SumSeries += (value * Math.Pow(startValue, 2) + 2 / (startValue + 1)) * Math.Sin(value);
+                SumSeries += (Math.Pow(value, startValue) + 2.0 / (startValue + 1)) * Math.Sin(value);
                 startValue++;
-
             } while (startValue <= stopValue);
             return Math.Round(SumSeries, 3);
         }
