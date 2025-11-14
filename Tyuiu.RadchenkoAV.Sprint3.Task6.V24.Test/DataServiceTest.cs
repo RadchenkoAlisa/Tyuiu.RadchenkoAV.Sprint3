@@ -8,11 +8,11 @@ namespace Tyuiu.RadchenkoAV.Sprint3.Task6.V24.Test
         public void ValidGetSumTheDivisors()
         {
             DataService ds = new DataService();
+
             int startValue = 17;
             int stopValue = 26;
-
-            double wait = 41;
-            double res = ds.GetSumTheDivisors(startValue, stopValue);
+            int res = ds.GetSumTheDivisors(startValue, stopValue);
+            int wait = 41;
             Assert.AreEqual(wait, res);
         }
     }
